@@ -12,7 +12,7 @@ class RecipeForm extends Component{
         }
     }
     search(){
-        const url="http://www.recipepuppy.com/api/?i="+this.state.ingredients+"&q="+this.state.dish;
+        const url="https://cors-anywhere.herokuapp.com/www.recipepuppy.com/api/?i="+this.state.ingredients+"&q="+this.state.dish;
         fetch(url,{
             method:'GET',
         }).then(response => response.json())
