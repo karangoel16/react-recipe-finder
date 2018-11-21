@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/react": "^15.6.0",
+    "package.json": "^2.0.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.6.1",
